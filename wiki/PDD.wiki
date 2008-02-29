@@ -1,0 +1,50 @@
+#summary Prelim design sketches
+= Introduction =
+
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+
+= GOALS =
+//name (secondary,...)(tertiary,...)
+{
+ kill (advance)(social)
+ {
+  heal - dmg healed
+  melee damage - dmg dealt
+  protect - dmg taken for another, 2x for return advantage
+  nuke - dmg dealt
+  counter - dmg/effects countered, 2x for return advantage
+  pet - pet xp gained
+ }
+ social
+ explore
+ {
+  % of world/scenery
+  ## of people
+  % of towns
+  % of enemies
+  ## of items
+  % of encounters, including group/raid encounters
+  ## of special events
+ }
+ build (acquire)
+ {
+  ## of things built, scaled by difficulty...and quality?
+  % of things built
+ }
+ acquire (kill)
+ {
+  stash size
+  abode size/cost/location
+  number/rarity of items acquired
+ }
+ rule (social)(build,acquire)
+}
