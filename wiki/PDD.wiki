@@ -1,50 +1,72 @@
 #summary Prelim design sketches
-= Introduction =
+= No Introduction =
 
 
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
-= GOALS =
+= Goals, Advancement =
+*Slow change rate based on multiple method failure*
 //name (secondary,...)(tertiary,...)
-{
- kill (advance)(social)
- {
-  heal - dmg healed
-  melee damage - dmg dealt
-  protect - dmg taken for another, 2x for return advantage
-  nuke - dmg dealt
-  counter - dmg/effects countered, 2x for return advantage
-  pet - pet xp gained
- }
- social
- explore
- {
-  % of world/scenery
-  ## of people
-  % of towns
-  % of enemies
-  ## of items
-  % of encounters, including group/raid encounters
-  ## of special events
- }
- build (acquire)
- {
-  ## of things built, scaled by difficulty...and quality?
-  % of things built
- }
- acquire (kill)
- {
-  stash size
-  abode size/cost/location
-  number/rarity of items acquired
- }
- rule (social)(build,acquire)
-}
+ ==kill (advance)(social)==
+ * heal - dmg healed
+ * melee damage - dmg dealt
+ * protect - dmg taken for another, 2x for return advantage
+ * nuke - dmg dealt
+ * counter - dmg/effects countered, 2x for return advantage
+ * pet - pet xp gained
+ ==social==
+ Can this be gauged the same for NPCs as PCs?    ....no
+ * ~~interact - Number of interactions~~
+ * interact - number of "meaningful" interactions
+ * group - number/duration of group interactions
+ * trade - number of business interactions
+ * influence - number of positive OR negative interactions
+ ==explore==
+ * see the world - amount of world/scenery
+ * see the population - number of towns
+ * see the wildlife - number of enemies
+ * see the loot - number of items
+ * find you limits - number of encounters, including group/raid encounters
+ ==build (acquire)==
+ * build everything - number of different items built
+ * built a lot - number of things built, scaled by difficulty
+ * build your own - number of unique/items made
+ * build it first - recipes found/invented
+ * build it well - number/scale of quality items built
+ ==acquire (kill)==
+ * horde cash - stash size
+ * live large - abode size/cost/location
+ * own everything - number/rarity of items acquired
+ * sell for profit - profit on items collected or bought low and sold high
+ ==rule (social)(build,acquire)==
+ * landgrabber - land owned
+ * ? - number of people paying for services
+ * ? - number of people paying for land
+ * taxes - secondary earnings, resale, sublease
+
+
+= Preferences =
+*Moderate change rate based on successes*
+== kill ==
+== social ==
+== explore ==
+== build ==
+== acquire ==
+== rule ==
+
+= Stats =
+*Immutable, or formulaic change with age*
+tac - tacitcal, chance to hit, chance to dodge (or alleviate: "partial dodge")
+ str - weight load, damage
+ sta - health
+ int - raw smarts, make good decisions, procs?			- npc, ability to strategize
+ wis - judge enemies, accrue knowledge, rate of improvement 	- npc, ability to judge full encounters
+ cha - affects prices, grouping
+
+ awareness - detect mobs, items, at X radius under Y cover.  partially wis based, 
+
+ MR/eleR/physR /dark?/light?
+ MR - int(wis) based
+ eleR - sta(gear)(race)
+ physR - gear(size)
+ dark? - align(?)
+ light? - align(?)
