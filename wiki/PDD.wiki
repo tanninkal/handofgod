@@ -55,12 +55,13 @@
 
 = Stats =
 *Immutable, or formulaic change with age*
-tac - tacitcal, chance to hit, chance to dodge (or alleviate: "partial dodge")
- str - weight load, damage
- sta - health
- int - raw smarts, make good decisions, procs?			- npc, ability to strategize
- wis - judge enemies, accrue knowledge, rate of improvement 	- npc, ability to judge full encounters
- cha - affects prices, grouping
+ * tac - tacitcal, chance to hit, chance to dodge (or alleviate: "partial dodge")
+ *You know, this really seems like something learned, wis based, combined with something lost, agi/age based)*
+ * str - weight load, damage
+ * sta - health
+ * int - raw smarts, make good decisions, procs?			- npc, ability to strategize
+ * wis - judge enemies, accrue knowledge, rate of improvement 	- npc, ability to judge full encounters
+ * cha - affects prices, grouping
 
  awareness - detect mobs, items, at X radius under Y cover.  partially wis based, 
 
