@@ -14,7 +14,7 @@
   * counter - dmg/effects countered, 2x for return advantage
   * pet - pet xp gained
  ==social==
- Can this be gauged the same for NPCs as PCs?    ....no
+ Can this be gauged the same for NPCs as PCs?    ....no.  probably not a player goal.
   * ~~interact - Number of interactions~~
   * interact - number of "meaningful" interactions
   * group - number/duration of group interactions
@@ -55,19 +55,22 @@
 
 = Stats =
 *Immutable, or formulaic change with age*
+ ==Innate==
+ * str - weight load, damage.  _start medium, peak ~25, slowly degrade below start_
+ * sta - health.  _start high, peak ~20, slowly degrade below start_
+ * int - pc: raw smarts, make good decisions, procs? _constant_
+ *     - npc: ability to strategize _constant_
+ * wis - pc: judge enemies, accrue knowledge, rate of improvement _increase gradually->death_
+ *     - npc:, ability to judge full encounters _increase gradually->death_
+ * cha - affects prices, grouping  _hmm.  constant?  probably_
+ ==Derived==
  * tac - tacitcal, chance to hit, chance to dodge (or alleviate: "partial dodge")
- *You know, this really seems like something learned, wis based, combined with something lost, agi/age based)*
- * str - weight load, damage
- * sta - health
- * int - raw smarts, make good decisions, procs?			- npc, ability to strategize
- * wis - judge enemies, accrue knowledge, rate of improvement 	- npc, ability to judge full encounters
- * cha - affects prices, grouping
+ *   _You know, this really seems like something learned, wis based, combined with something lost, agi/age based)_
+ * awareness - detect mobs, items, at X radius under Y cover.  partially wis based, 
 
- awareness - detect mobs, items, at X radius under Y cover.  partially wis based, 
-
- MR/eleR/physR /dark?/light?
- MR - int(wis) based
- eleR - sta(gear)(race)
- physR - gear(size)
- dark? - align(?)
- light? - align(?)
+ ==Resistance==
+ * MR - int(wis) based
+ * eleR - sta(gear)(race)
+ * physR - gear(size)
+ * dark? - align(?)
+ * light? - align(?)
