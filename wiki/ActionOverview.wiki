@@ -48,6 +48,7 @@ GOAL: kill
   action: travel to _history coordinates_  //pathing is a simple
 
 and after the interrupt, at the end:
+
 GOAL: kill
  action: combat
   action: nuke
