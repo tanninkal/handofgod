@@ -1,0 +1,13 @@
+#summary An overview of action-system implementation
+
+Every entity will always be pursuing one of the 6 goals.  There is no downtime, but perceived downtime, travel, LFG, etc., must be built as an action of sufficient importance to not be interrupted without external stimulus or lack of attention span (always a viable reason.)
+
+To this end, every entity will maintain an action-stack, with one of the 6 goals as the root.
+
+Each action available to a character will be one of two types: a simple or a complex action.  A simple action will be implemented purely in code, while a complex action will be implemented by calling other actions.
+
+A simple action might be "build a wall," comprised of cehcking necessary components, figuring out the line, maybe a property border (probably always a property border), and then procedurally constructing the wall, to be interrupted only by stimulus, such as an attack, or boredom.  A complex action could be anything from "farm some gold" to "kill the monster."
+
+Thus, the action stack might be:
+
+GOAL: accrue
