@@ -1,3 +1,6 @@
+THIS TEXT IS OUT OF DATE AS OF 2008.0305.0930
+THIS IS MEANT TO BE FOR SVN TESTING AND GENERAL REFERENCE ONLY
+
 what i want to do:
 GOALs -		lifetime desires.  social, kill, improve, own, rule, build.  SLOW change over time based on feedback
 how i get it done:
@@ -10,9 +13,6 @@ and
 GEAR -		what i'm using to hit/cast with, how well i absorb damage, 
 what i thought of it: (how i did)
 HISTORY MATRIX -
-
-gcode - zp8jw8GP9eY6
-
 
 
 
