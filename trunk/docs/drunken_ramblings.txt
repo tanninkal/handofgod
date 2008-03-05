@@ -1,0 +1,129 @@
+what i want to do:
+GOALs -		lifetime desires.  social, kill, improve, own, rule, build.  SLOW change over time based on feedback
+how i get it done:
+PREFERENCES -	left or right, heal or nuke, solo or group, gear up or hunt with a stick, etc. FASTER changes over time
+how well i do at it:
+ATTRIBUTES -	int/wis/str,etc.  immutable.  or maybe ~with age.  wis might change...
+and
+SKILLS -	how well i swing a sword, cast my spell, command my pet, 
+and
+GEAR -		what i'm using to hit/cast with, how well i absorb damage, 
+what i thought of it: (how i did)
+HISTORY MATRIX -
+
+gcode - zp8jw8GP9eY6
+
+
+
+
+COMBINE ADVANCE/GOALS - sorta.  categorize those that fit.  also, group with feedback.
+
+GOALS
+{
+ provisioning
+ {
+  armor
+   SW: ac/stats
+  weapons
+   SW: dmg/agro
+   SW: 2h/1h
+  trinkets/potions
+  item maintenance
+ }
+ combat - THESE ADVANCE/skillup - "level" is based on total xp gained
+ {
+  heal - dmg healed
+  melee damage - dmg dealt
+  protect - dmg taken for another, 2x for return advantage
+  nuke - dmg dealt
+  counter - dmg/effects countered, 2x for return advantage
+  pet - pet xp gained
+ }
+ "trade"
+ {
+  hmm.  local shop vs: regional trade vs: privateer
+        specialize vs: generalist
+  weps/armor/trinkets/potions
+  BUILD
+  {
+   shops, walls, defenses, ...   //need permission to build on someone else's land.  land is claimed by...hmm.
+  }
+  create/own (own shop, own town, own empire)
+ }
+}
+advancement
+{
+ goal-improve - choose targets, get gear, ignore tradeskills
+ goal-explore - find new towns, meet new people, find new mobs, new vistas
+ goal-fight - fight for the sake of killing.
+ {
+  heal - dmg healed
+  melee damage - dmg dealt
+  protect - dmg taken for another, 2x for return advantage
+  nuke - dmg dealt
+  counter - dmg/effects countered, 2x for return advantage
+  pet - pet xp gained
+ }
+ goal-social - buy/sell, hang out at a bar, group for the sake of grouping
+ goal-accrue - get land, get buildings, horde money, OWN
+ goal-build - make a shop, a wall, a town, etc.
+}
+
+//since i'm not sure i mentioned many of the prefs, i've got a list in one of my text files of things like: "
+
+SW: social/loner.  tend to group, tend to solo.  crowded areas vs empty ones.
+SW: self/common good.  duty to town? helping others? wait until they die and loot them? :)
+
+%aversion to "risk"
+
+%tendencay to return home or find a new one
+the "what is home" component.
+
+ATTENTION SPAN - how long one is likely to do something before reevaluating.
+		achieving a microgoal might force a reroll, failing an ADD check might force a weighted reroll.
+		a change could be anything form stopping XP for trades/social, or just changing areas.
+
+differences between mobs/npcs
+{
+ available gear slots - biology based, int based.
+ concept of merchant - int based
+ ability to fabricate - int based, biology based (opposable thumbs, vision)
+ ?
+}
+
+inherent gear: fists, claws, head, feet, teeth, etc.
+
+
+backend stats
+{
+ backend traits
+ {
+
+ }
+ success feedback
+ {
+  what i've fought
+  {
+   what i killed, what i didn't. (@what skill levels)
+   how i killed, how i was hurt
+   what combat worked, what didn't
+  }
+  who i know
+  {
+   who helped me, who didn't (group)
+   who hurt me, who didn't (pvp)
+  }
+  what i've sold
+  {
+   what sold well, too well, not at all
+  }
+  where i've been
+  {
+   combat: where i was outmatched, good challenge, easy challenge, no challenge
+   where other players were, weren't
+   where there was more to explore
+   directions/paths
+  }
+  //what i've been told?
+ }
+}
