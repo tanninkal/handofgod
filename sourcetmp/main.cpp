@@ -1,7 +1,7 @@
 #include "logger.h"
 
 int main_lh; //logger handle
-char main_tbuf[LOGGER_MAXTEXT];
+char main_tbuf[LOGGER_MAXTEXT]; //logger buff
 
 int die(int ret);
 
